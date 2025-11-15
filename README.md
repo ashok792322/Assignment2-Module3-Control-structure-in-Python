@@ -39,9 +39,9 @@ else_block start  with indentation of 4 spaces. print() execute when condition m
 Variable sum declared with initial value 0 before start of loop so that it act as container of sum of iteration value and updated value of variable sum. if sum=0 declared inside the loop then with every iteration the value of variable sum become 0 and final value also will be 0+50 i.e 50 which will be incorrect answer.
 
 
-## line 2:      for i in range(1,50):
+## line 2:      for i in range(1,51):
 
-for loop start taking iteration variable i , number of loop going to iterate fixed between 1 to 50  using range().
+for loop start taking iteration variable i , number of loop going to iterate fixed between 1 to 50  using range(1,51) as 51 excluded.  .
 
 
 ## line 3:       sum += i
